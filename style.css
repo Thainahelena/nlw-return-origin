@@ -3,6 +3,8 @@
   --primarycolor: hsl(170, 100%, 26%);
   --headlinecolor: hsl(210, 11%, 15%);
   --paragraphcolor: hsl(210, 9%, 31%);
+  --brandbeige: hsl(39, 100%, 97%);
+
   margin: 0;
   box-sizing: border-box;
 }
@@ -10,17 +12,17 @@
 * {
   font-family: 'DM Sans';
   font-size: 1.6rem; /*Fonte padrão navegador 16px*/
-  text-align: center; 
+  text-align: center;
 }
 
-header{
+header {
   width: 37.5rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 h1 {
-  font-size: 3.4rem;  
+  font-size: 3.4rem;
   color: var(--headlinecolor);
   margin-bottom: 2.6rem;
 }
@@ -32,7 +34,7 @@ h4 {
   margin-bottom: 1.6rem;
 }
 
-p{
+p {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 150%;
@@ -40,7 +42,7 @@ p{
   margin-bottom: 3.2rem;
 }
 
-button{
+button {
   background: var(--primarycolor);
   border: none;
   border-radius: 4rem;
@@ -57,4 +59,14 @@ button{
   gap: 1.6rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+stats {
+  width: 32.7rem;
+  height: 47rem;
+  margin-inline: auto;
+  background-color: var(--brandbeige);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
