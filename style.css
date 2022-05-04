@@ -94,3 +94,15 @@ header img {
   color: var(--primarycolor);
   line-height: 150%;
 }
+
+header::before {
+  content: "";
+  width: 100vw;
+  height: 108rem;
+  background-color: var(--brandlight);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
