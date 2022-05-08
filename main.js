@@ -1,5 +1,7 @@
 function onScroll() {
-  console.log('Mensagem')
+  if(scrollY > 0) {
+    navigation.classList.add('scroll')
+  } else {
+    navigation.classList.remove('scroll')
+  }
 }
-
-onScroll()
